@@ -1,52 +1,15 @@
-/* Style for the entire table */
 table {
-    width: 100%;
-    border-collapse: collapse; /* Ensure borders collapse into a single line */
-    margin: 20px 0; /* Add some margin around the table */
-}
-
-/* Style for table headers and data cells */
-th, td {
-    border: 1px solid #ccc; /* 1px solid border */
-    border-radius: 5px; /* Rounded corners */
-    padding: 0.5rem; /* Padding inside the cells */
-    text-align: center; /* Center-align the text */
-}
-
-tbody tr:nth-child(odd) {
-    background-color: #f2f2f2; /* Light gray background for odd rows */
-}
-
-/* Style for even rows */
-tbody tr:nth-child(even) {
-    background-color: #ffffff; /* White background for even rows */
-}
-
-th {
-    background-color: #e0e0e0; /* Light gray background for header */
-}
-table {
-    width: 100%;
-    border-collapse: collapse; /* Ensure borders collapse into a single line */
-    margin: 20px 0; /* Add some margin around the table */
+  border-collapse: collapse;
+  width: 100%;
 }
 
 th, td {
-    border: 1px solid #ccc; /* 1px solid border */
-    border-radius: 5px; /* Rounded corners */
-    padding: 0.5rem; /* Padding inside the cells */
-    text-align: center; /* Center-align the text */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.5rem;
+  text-align: left;
 }
 
-tbody tr:nth-child(odd) {
-    background-color: #f2f2f2; /* Light gray background for odd rows */
-}
-
-/* Style for even rows */
-tbody tr:nth-child(even) {
-    background-color: #ffffff;
-}
-
-th {
-    background-color: #e0e0e0; 
+tr:nth-child(even) {
+  background-color: #f2f2f2;
 }
